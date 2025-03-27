@@ -5,11 +5,12 @@
     "version": "0.2.0",
     "configurations": [
         
-        
+
         {
-            "type": "jdk",
+            "type": "java",
+            "name": "Current File",
             "request": "launch",
-            "name": "Launch Java App"
+            "mainClass": "${file}"
         }
     ]
 }
